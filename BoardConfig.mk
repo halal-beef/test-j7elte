@@ -84,3 +84,23 @@ TW_INCLUDE_CRYPTO := true
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXTRA_LANGUAGES := true
+
+SHRP_DEVICE_CODE := j7elte
+SHRP_PATH        := device/samsung/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER  := NullCode
+SHRP_REC_TYPE    := Normal
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC         := /dev/block/bootdevice/by-name/RECOVERY
+SHRP_EDL_MODE    := 0
+SHRP_EXTERNAL    := /external_sdcard
+SHRP_OTG         := /usb-otg
+SHRP_FLASH       := 1
+
+SHRP_FLASH_MAX_BRIGHTNESS := 1
+SHRP_CUSTOM_FLASHLIGHT    := true
+SHRP_FONP_1               := /sys/devices/virtual/camera/flash/rear_flash
+#SHRP_FONP_2               :=
+#SHRP_FONP_3               :=
+
+# Addon Removal
+SHRP_SKIP_DEFAULT_ADDON_3 := true
