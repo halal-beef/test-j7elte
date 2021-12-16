@@ -1,3 +1,3 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_j7elte.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_j7elte.mk
 
-COMMON_LUNCH_CHOICES := omni_j7elte-eng
+COMMON_LUNCH_CHOICES := twrp_j7elte-eng
